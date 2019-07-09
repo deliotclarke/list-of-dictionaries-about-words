@@ -84,7 +84,6 @@ namespace list_of_dictionaries_about_words
       // Iterate the List of Dictionaries
       dictionaryOfWords.ForEach(dictionary =>
       {
-
         // Iterate the KeyValuePairs of the Dictionary
         foreach (KeyValuePair<string, string> wordData in dictionary)
         {
